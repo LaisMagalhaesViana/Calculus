@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Titillium+Web:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+:root {
+    --font-main: 'Titillium Web', serif;
+    --main-color: #005796;
+    --secondary-color: #004573;
+    --white-color: #fff;
+    --black-color: #000;
+    --font-secondary: 'Poppins', serif;
+    --font-size: 24px;
+    --gray-color: #6C6C6C;
+} 
+
+.nav__bg{
+    background-image: url(/assets/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
+.nav{
+   font-family: var(--font-main);
+   font-weight: bold;
+   font-size: var(--font-size);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 50%;
+}
+
+.nav a {
+    color: var(--white-color);
+    position:relative;
+    left: 45rem;
+    top: 1rem;  
+}
+
+span {
+    color: var(--main-color);
+}
+
+.banner {
+    padding: 15%;
+    font-family: var(--font-main);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.banner h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.orçamento {
+    margin-top: 2rem;
+    background: #005796;
+    border-radius: 18px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 49px;
+    border: none;
+    width: 20rem;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.scroll {
+    position: relative;
+    top: 15rem;
+}
+
+.quem__somos {
+    color: var(--black-color);
+    font-family: var(--font-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 20rem;
+}
+
+.quem__somos h2 {
+    color: var(--main-color);
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.button__box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-right: 70%;
+    font-family: var(--font-main);
+}
+
+.desc__about {
+    margin-top: -17%;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 10rem;
+}
+
+.button__up {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-size: larger;
+    font-weight: 500;
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.button__quem {
+    background-color: var(--white-color);
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 700;
+    border: solid;
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.serviços {
+    background-color: var(--main-color);
+    padding: 3rem;
+    font-family: var(--font-main);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__serviço {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    background-color: var(--gray-color);
+    align-items: center;
+    width: 20%;
+    height: 25rem;
+}
+
+.card__serviço h2, p {
+    margin: 1rem 2rem;
+}
+
+.grid__serviços {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    width: 80%;
+}
+
+.btn__saiba {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    font-size: larger;
+    font-weight: 600;
+    border: none;
+    width: 50%;
+    height: 3rem;
+    margin-top: 4rem;
+}
+
+.parceiros h2 {
+    color: var(--main-color);
+    font-size: larger;
+}
+
+.parceiros{
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-family: var(--font-main);
+}
+
+.img__parceiros {
+    margin-right: 6rem;
+}
+
+.contato h2 {
+    color: var(--black-color);
+    font-size: larger;
+    font-weight: 500;
+}
+
+.contato {
+    color: var(--black-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    font-family: var(--font-main);
+}
+
+.card__local {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 55%;
+    margin-top: 3rem;
+    color: var(--main-color);
+    height: 6rem;
+}
+
+.card__local h3 , p {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.card__contato {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 55%;
+    margin-top: 3rem;
+    color: var(--main-color);
+    height: 7rem;
+    margin-bottom: 8rem;
+    align-items: center;
+}
+
+.card__contato p {
+    font-size: larger;
+    font-weight: bold;
+    color: var(--black-color);
+}
+
+.btn__contato {
+    background: #005796;
+    border-radius: 5px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 49px;
+    border: none;
+    width: 10rem;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.card__tel {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 55%;
+    color: var(--main-color);
+    height: 6rem;
+}
+
+.card__tel h3 {
+    margin-left: 1rem;
+    width: 30%;
+    margin-top: 2rem;
+}
+
+.card__tel p {
+    margin-top: 2.1rem;
+}
+
+.cards__contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: var(--main-color);
+    padding: 2rem;
+    margin-top: 5rem;
+    color: var(--white-color);
+    font-family: var(--font-secondary);
+}
+
+.text__nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90%;
+    font-family: var(--font-secondary);
+    position: relative;
+    bottom: 4rem;
+}
+
+.text__nav a {
+    color: var(--white-color);
+}
+
+.copyright span {
+    color:#FCFF00 ;
+}
