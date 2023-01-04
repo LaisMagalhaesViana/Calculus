@@ -43,14 +43,225 @@
 
 .banner__about {
     background-image: url(/assets/calculusgroup.svg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     background-size: cover;
     display: flex;
     align-items: center;
     padding: 12rem;
 }
 
-.banner__about h1, h3 {
+.banner__content {
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--white-color);
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 40%;
+}
+
+.banner__content h3{
+    font-size: x-large;
+}
+
+.historia {
+    margin: 6rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.historia__content {
+    margin-left: 6rem;
+    font-family: var(--font-main);
+    color: var(--main-color);
+    font-weight: bold
+}
+
+.value__title {
+    display: flex;
+    flex-direction: row;
+    margin: 4rem;
+    justify-content: space-between;
+    font-family: var(--font-main);
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+.grid__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-main);
+    font-weight: bold;
+    color: var(--main-color);
+    border: solid;
+    width: 18%;
+    height: 100px;
+    justify-content:space-around;
+}
+
+.numeros {
+    background-color: rgba(3, 83, 137, 0.15);
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem;
+    font-family: var(--font-main);
+    color:var(--secondary-color);
+}
+
+.card__numeros{
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.img__people {
+    padding-right: 3rem;
+}
+
+.dif__title {
+    font-family: var(--font-main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: larger;
+}
+
+.dif__title h4{
+    font-weight: 500;
+}
+
+.card__dif {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    align-items: center;
+    padding: 15px;
+    color: var(--white-color);
+    font-family: var(--font-main);
+    border-radius: 6px;
+}
+
+.diferenciais {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+.contato h2 {
+    color: var(--black-color);
+    font-size: larger;
+    font-weight: 500;
+}
+
+.contato {
+    color: var(--black-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    font-family: var(--font-main);
+}
+
+.card__local {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 55%;
+    margin-top: 3rem;
+    color: var(--main-color);
+    height: 6rem;
+}
+
+.card__local h3 , p {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.card__contato {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 55%;
+    margin-top: 3rem;
+    color: var(--main-color);
+    height: 7rem;
+    margin-bottom: 8rem;
+    align-items: center;
+}
+
+.card__contato p {
+    font-size: larger;
+    font-weight: bold;
+    color: var(--black-color);
+}
+
+.btn__contato {
+    background: #005796;
+    border-radius: 5px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 49px;
+    border: none;
+    width: 10rem;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.card__tel {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 55%;
+    color: var(--main-color);
+    height: 6rem;
+}
+
+.card__tel h3 {
+    margin-left: 1rem;
+    width: 30%;
+    margin-top: 2rem;
+}
+
+.card__tel p {
+    margin-top: 2.1rem;
+}
+
+.cards__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: var(--main-color);
+    padding: 2rem;
+    margin-top: 5rem;
+    color: var(--white-color);
+    font-family: var(--font-secondary);
+}
+
+.text__nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90%;
+    font-family: var(--font-secondary);
+    position: relative;
+    bottom: 4rem;
+}
+
+.text__nav a {
+    color: var(--white-color);
+}
+
+.copyright span {
+    color:#FCFF00 ;
 }
