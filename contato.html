@@ -5,73 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CalculusJr</title>
+    <link rel="stylesheet" href="/css/contato.css">
 </head>
 <body>
     <header>
         <nav class="nav">
             <img src="/assets/Logo Calculus.png" alt="Imagem da logomarca">
-            <a href="">Início</a>
-            <a href="">Quem somos</a>
-            <a href="">Serviços</a>
-            <a href="">Contato</a>
+            <div class="nav__text">
+                <a href="">Início</a>
+                <a href="">Quem somos</a>
+                <a href="">Serviços</a>
+                <a href="">Contato</a>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <main class="banner__contact">
         <h2>Fale Conosco</h2>
     </main>
 
     <section class="redes__sociais">
-        <div>
+        <div class="contact__card">
             <img src="/assets/facebook.png" alt="">
-            <h3>Facebook</h3>
-            <p>Calculus - Empresa Junior</p>
+            <div class="contact__text">
+                <h3>Facebook</h3>
+                <p>Calculus - Empresa Junior</p>
+            </div>
         </div>
-        <div>
+        <div class="contact__card2">
             <img src="/assets/wpp.png" alt="">
-            <h3>Whatsapp</h3>
-            <p>(71) 98300-9395</p>
+            <div class="contact__text">
+                <h3>Whatsapp</h3>
+                <p>(71) 98300-9395</p>
+            </div>   
         </div>
-        <div>
+        <div class="contact__card3">
             <img src="/assets/insta.png" alt="">
-            <h3>Instagram</h3>
-            <p>@calculus.jr</p>
+            <div class="contact__text">
+                <h3>Instagram</h3>
+                <p>@calculus.jr</p>
+            </div>  
         </div>
     </section>
 
     <section class="forms">
-        <div>
-            <h2>Entre em contato conosco</h2>
+        <div class="contact__forms">  
+            <h2>Entre em contato conosco</h2> <br>
             <form action="contato">
-                <input type="text" name="nome" id="">
-                <input type="tel" name="telefone" id="">
-                <input type="email" name="email" id="">
-                <input type="text" name="mensagem" id="">
-                <button>Enviar</button>
+                <input type="text" name="nome" id="nome">
+                <div class="email__tel">
+                    <input type="tel" name="telefone" id="tel">
+                    <input type="email" name="email" id="tel">
+                </div>
+                <input type="text" name="mensagem" id="text"> <br>
+                <button class="submit">Enviar</button>
             </form>
         </div>
-        <div>
-            <img src="/assets/Icone Maps.png" alt="">
-            <p>Universidade do Estado da Bahia – UNEB – Rua Silveira Martins, 2555 – Cabula, Salvador – Ba, 41150-000 – DCET – Campus I – UNEB</p>
-            <img src="/assets/Icone Tel.png" alt="">
-            <p>(71) 98300-9395 </p>
-            <img src="/assets/Icone Tel.png" alt="">
-            <p>Segunda à Sexta das 08:00 às 18:00</p>
-        </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5578.915542960689!2d-38.460109674806105!3d-12.95059644774144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a9484e88a99%3A0x89a6ccf477c1f90b!2sCalculus%20Jr.!5e0!3m2!1spt-BR!2sbr!4v1669207088272!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <div class="info__group">
+            <div>
+                <div class="card__info">
+                    <img src="/assets/Icone Maps.png" alt="" width="20px" height="30px"> 
+                    <p>Universidade do Estado da Bahia – UNEB – Rua Silveira Martins, 2555 – Cabula, Salvador – Ba, 41150-000 – DCET – Campus I – UNEB</p>
+                </div>
+                <div class="card__info">
+                    <img src="/assets/Icone Tel.png" alt="" width="20px" height="20px">
+                    <p>(71) 98300-9395 </p>
+                </div>
+                <div class="card__info">
+                    <img src="/assets/Iconehora.png" alt="" width="20px" height="20px">
+                    <p>Segunda à Sexta das 08:00 às 18:00</p>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5578.915542960689!2d-38.460109674806105!3d-12.95059644774144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a9484e88a99%3A0x89a6ccf477c1f90b!2sCalculus%20Jr.!5e0!3m2!1spt-BR!2sbr!4v1669207088272!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>  
     </section>
 
-    <footer>
-        <img src="/assets/Logo Calculus.png" alt="">
-        <div>
+    <footer class="footer">
+        <img src="/assets/Logo Calculus.png" alt="" width="250px">
+        <div class="text__nav">
             <a href="">Início</a>
             <a href="">Quem Somos</a>
             <a href="">Serviços</a>
             <a href="">Contato</a>
         </div>
-        <div>
+        <div class="copyright">
             <p>Copyright ©2022 Todos os direitos reservados | Site criado por <span>Praxis - Empresa Jr.</span></p>
         </div>
     </footer>
